@@ -102,6 +102,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Acknowledgments
 
-- Sign Language MNIST dataset
+- [Sign Language MNIST dataset](https://www.kaggle.com/datasets/datamunge/sign-language-mnist/data) - Thanks to the dataset creators and Kaggle for hosting this valuable resource
 - MediaPipe for hand tracking
 - TensorFlow and Keras for deep learning framework 
