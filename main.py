@@ -10,7 +10,7 @@ import pandas as pd
 
 # Try to load the model, with error handling
 try:
-    model = load_model('model.keras')
+    model = load_model('model.h5')
 except Exception as e:
         print(f"Error loading model: {e}")
         print("Please make sure your model file exists and is correctly named.")

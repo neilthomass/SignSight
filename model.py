@@ -13,7 +13,7 @@ import pandas as pd
 
 
 
-
+#make sure the files are in the same directory as the script
 train_df = pd.read_csv("sign_mnist_train.csv")
 test_df = pd.read_csv("sign_mnist_test.csv")
 print(train_df.head(10))
@@ -77,4 +77,4 @@ model.compile(optimizer = 'adam' , loss = 'categorical_crossentropy' , metrics =
 
 model.summary()
 history = model.fit(datagen.flow(x_train,y_train, batch_size = 128) ,epochs = 20 , validation_data = (x_test, y_test) , callbacks = [learning_rate_reduction,early_stopping])
-model.save('model.keras')
+model.save('model.h5')
