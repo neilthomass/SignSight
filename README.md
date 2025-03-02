@@ -6,7 +6,9 @@ A real-time American Sign Language (ASL) recognition system using computer visio
 
 This project uses a convolutional neural network (CNN) to recognize American Sign Language (ASL) hand gestures in real-time through a webcam. The system can identify 24 static ASL signs (A-Y, excluding J and Z which require motion).
 
-![Sign Language Recognition Demo](https://i.imgur.com/example.gif)
+## Repository
+
+GitHub: [https://github.com/neilthomass/ComputerVisionASL](https://github.com/neilthomass/ComputerVisionASL)
 
 ## Features
 
@@ -28,8 +30,8 @@ This project uses a convolutional neural network (CNN) to recognize American Sig
 
 1. Clone this repository:
    ```
-   git clone https://github.com/yourusername/sign-language-recognition.git
-   cd sign-language-recognition
+   git clone https://github.com/neilthomass/ComputerVisionASL.git
+   cd ComputerVisionASL
    ```
 
 2. Install the required packages:
@@ -43,7 +45,8 @@ This project uses a convolutional neural network (CNN) to recognize American Sig
 
 1. Run the main application:
    ```
-   python main.py
+   python3 model.py
+   python3 main.py
    ```
 
 2. Position your hand in the camera's field of view.
@@ -104,6 +107,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - [Sign Language MNIST dataset](https://www.kaggle.com/datasets/datamunge/sign-language-mnist/data) - Thanks to the dataset creators and Kaggle for hosting this valuable resource
 - MediaPipe for hand tracking
-- TensorFlow and Keras for deep learning framework # ComputerVisonASL
-# ComputerVisonASL
-# ComputerVisonASL
+- TensorFlow and Keras for deep learning framework
