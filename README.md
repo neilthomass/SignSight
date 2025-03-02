@@ -6,10 +6,6 @@ A real-time American Sign Language (ASL) recognition system using computer visio
 
 This project uses a convolutional neural network (CNN) to recognize American Sign Language (ASL) hand gestures in real-time through a webcam. The system can identify 24 static ASL signs (A-Y, excluding J and Z which require motion).
 
-## Repository
-
-GitHub: [https://github.com/neilthomass/ComputerVisionASL](https://github.com/neilthomass/ComputerVisionASL)
-
 ## Features
 
 - **Real-time Recognition**: Continuously detects and classifies hand signs
