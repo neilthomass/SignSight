@@ -106,3 +106,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - MediaPipe for hand tracking
 - TensorFlow and Keras for deep learning framework # ComputerVisonASL
 # ComputerVisonASL
+# ComputerVisonASL
