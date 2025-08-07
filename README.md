@@ -30,26 +30,31 @@ This project uses a convolutional neural network (CNN) to recognize American Sig
    cd ComputerVisionASL
    ```
 
-2. Install the required packages:
+2. Install dependencies using [uv](https://github.com/astral-sh/uv):
    ```
-   pip install tensorflow opencv-python mediapipe numpy pandas
+   uv sync
    ```
 
 3. Download the pre-trained model or train your own using the provided code.
 
 ## Usage
 
-1. Run the main application:
-   ```
-   python3 model.py
-   python3 main.py
-   ```
+- **Real-time demo**:
+  ```
+  uv run python signsight/recognizer.py
+  ```
 
-2. Position your hand in the camera's field of view.
+- **Streamlit interface**:
+  ```
+  uv run streamlit run app/streamlit_app.py
+  ```
 
-3. Make ASL hand signs, and the system will display the recognized letter.
+- **Model training**:
+  ```
+  uv run python signsight/train.py
+  ```
 
-4. Press ESC to exit the application.
+Position your hand in the camera's field of view and make ASL hand signs; the system will display the recognized letter. Press ESC to exit the real-time demo.
 
 ## How It Works
 
@@ -75,12 +80,12 @@ If you want to train your own model:
 
 1. Download the Sign Language MNIST dataset from Kaggle.
 
-2. Use the `model.py` script to train the model:
+2. Use the training module to build the model:
    ```
-   python model.py
+   uv run python signsight/train.py
    ```
 
-3. The trained model will be saved as `smnist.h5`.
+3. The trained model will be saved as `model.h5`.
 
 ## Limitations
 
